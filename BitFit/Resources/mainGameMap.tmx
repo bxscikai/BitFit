@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="collidable" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztl7sOwjAMRQudgAnYGBAqW/n//8MMkaIqbew8fF3k4WyOmuNeR/I0DMPUkDfxBNDSwT3cwz3cwz3cwz3cwz3cQ+JxII7EuHOPE3EmLit3KPFcntHwuBI34r5yp5wn54yF+ch5cs4gPKQ54tQjPKQ54tQjPKQ54tT39uiRIYRHjwwhPFKZCD0PjJl6Cx5bPQ9Ie2/FI/Q8IO29FQ/JvKeytyePreyl3jSrHlvZS71pVj04jrFbLw+NnUNjPnrsHAiPHjsHwqMk4zX/yuKcl2RSy0PS45JMannUzkPcB813V9rj2qyh5kM6y7k+oDw4OZO4ojw4OZPMFMqjdJ7XmBvzSdwpRYt/oMVyh4ipyZs2yx0iBn03Di/ANx9/Quv3ynF+fAFzKyWW
+  </data>
+ </layer>
+ <objectgroup name="Object" width="50" height="50">
+  <object x="240" y="1472"/>
+  <object name="StartPoint" x="240" y="1472"/>
+ </objectgroup>
+</map>
